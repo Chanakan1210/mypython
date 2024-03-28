@@ -21,7 +21,7 @@ cl1.write(dt['sepal.length'].sum())
 cl2.write(dt['sepal.width'].sum())
 cl3.write(dt['petal.length'].sum())
 cl4.write(dt['petal.width'].sum())
-cols=['sepal.length', 'sepal.width', 'petal.length']
+cols=['sepal.length', 'sepal.width','petal.length']
 dx=dt[cols]
 st.bar_chart(dx,x='sepal.length',y='sepal.width',color='petal.length')
 
