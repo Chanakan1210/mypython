@@ -1,4 +1,4 @@
-import stremlit as st
+import streamlit as st
 
 st.title("Website Developing using Python")
 st.hesder("Website Developing using Python")
