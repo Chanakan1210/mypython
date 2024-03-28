@@ -32,11 +32,11 @@ cx=pd.DataFrame(dx,index=["sepal.length", "sepal.width", "petal.length","petal.w
 st.bar_chart(cx)
 
 st.write('ค่าเฉลี่ย')
-cl11,cl12,cl13,cl14=st.columns(4)
-cl11.write(dt['sepal.length'].mean())
-cl12.write(dt['sepal.width'].mean())
-cl13.write(dt['petal.length'].mean())
-cl14.write(dt['petal.width'].mean())
+cl1,cl2,cl3,cl4=st.columns(4)
+cl1.write(dt['sepal.length'].mean())
+cl2.write(dt['sepal.width'].mean())
+cl3.write(dt['petal.length'].mean())
+cl4.write(dt['petal.width'].mean())
 
 st.write("Area_Chart")
 a=dt['sepal.length'].mean()
@@ -49,11 +49,11 @@ st.area_chart(cxx)
 
 
 st.write('ค่ามากที่สุด')
-cl21,cl22,cl23,cl24=st.columns(4)
-cl21.write(dt['sepal.length'].max())
-cl22.write(dt['sepal.width'].max())
-cl23.write(dt['petal.length'].max())
-cl24.write(dt['petal.width'].max())
+cl1,cl2,cl3,cl4=st.columns(4)
+cl1.write(dt['sepal.length'].max())
+cl2.write(dt['sepal.width'].max())
+cl3.write(dt['petal.length'].max())
+cl4.write(dt['petal.width'].max())
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -67,11 +67,11 @@ st.pyplot(fig1)
 
 
 st.write('ค่าน้อยที่สุด')
-cl31,cl32,cl33,cl34=st.columns(4)
-cl31.write(dt['sepal.length'].min())
-cl32.write(dt['sepal.width'].min())
-cl33.write(dt['petal.length'].min())
-cl34.write(dt['petal.width'].min())
+cl1,cl2,cl3,cl4=st.columns(4)
+cl1.write(dt['sepal.length'].min())
+cl2.write(dt['sepal.width'].min())
+cl3.write(dt['petal.length'].min())
+cl4.write(dt['petal.width'].min())
 
 st.write("Line_Chart")
 cc=[3,8,1,10]
